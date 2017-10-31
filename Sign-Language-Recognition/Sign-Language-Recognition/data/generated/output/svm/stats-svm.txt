@@ -1,0 +1,22 @@
+Model used = 'svm'Classifier model details:
+LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+     verbose=0)
+
+Model score:
+0.77456
+
+Classification report:
+             precision    recall  f1-score   support
+
+          A       0.72      0.83      0.77       561
+          B       0.86      0.55      0.67       243
+          C       0.77      0.71      0.74       235
+       Five       0.92      0.96      0.94       261
+      Point       0.76      0.77      0.76       540
+          V       0.72      0.72      0.72       165
+
+avg / total       0.78      0.77      0.77      2005
+
+

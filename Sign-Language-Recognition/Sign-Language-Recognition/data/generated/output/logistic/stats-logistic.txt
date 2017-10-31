@@ -1,0 +1,22 @@
+Model used = 'logistic'Classifier model details:
+LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+Model score:
+0.58270
+
+Classification report:
+             precision    recall  f1-score   support
+
+          A       0.61      0.65      0.63       230
+          B       0.30      0.26      0.28        91
+          C       0.48      0.50      0.49       116
+       Five       0.83      0.82      0.82       132
+      Point       0.63      0.60      0.61       277
+          V       0.40      0.44      0.42        79
+
+avg / total       0.58      0.58      0.58       925
+
+
